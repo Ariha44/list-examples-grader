@@ -8,7 +8,7 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
-# 2. Check for correct files
+# 2. Check for correct files 
 # cd student-submission
 # if [[ -f ListExamples.java ]]
 # then
