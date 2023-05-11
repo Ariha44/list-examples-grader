@@ -10,7 +10,7 @@ echo 'Finished cloning'
 
 # 2. Check for correct files
 # cd student-submission
-# if [[ -f ListExamples.java ]] 
+# if [[ -f ListExamples.java ]]  
 # then
 #     echo "Found ListExamples.java"
 # else
