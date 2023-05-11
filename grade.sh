@@ -8,6 +8,23 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
+# 2. Check for correct files
+cd student-submission
+if [[ -f ListExample.java ]]
+then
+    echo "Found ListExample.java"
+else
+    echo "Could not find ListExample.java!"
+    exit
+fi
+
+# 3. Move the files into the grading directory
+mv ListExamples.java ../grading-area
+mv TestList
+
+rm findResults.txt
+
+
 
 # Draw a picture/take notes on the directory structure that's set up after
 # getting to this point
